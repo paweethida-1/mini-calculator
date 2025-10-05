@@ -1,22 +1,25 @@
-🧮 Mini Project — Calculator (HTML / CSS / JavaScript)
+# 🧮 Mini Project — Calculator
+A simple and elegant **web calculator** built using **HTML**, **CSS**, and **JavaScript**.  
+This mini-project is part of my **Front-End Practice Series**, focusing on layout, interactivity, and responsive design.
 
-A simple and elegant web calculator built using HTML, CSS, and JavaScript.
-This project is part of my self-practice to learn front-end development — focusing on layout, interactivity, and responsive design.
+---
 
-🚀 Demo
+## 🚀 Live Demo  
+🔗 [https://paweethida-1.github.io/mini-calculator/](https://paweethida-1.github.io/mini-calculator/)
 
-🔗 Live Preview: https://paweethida-1.github.io/mini-calculator/
+---
 
-🧱 Features
+## ✨ Features  
 
-🖩 Basic operations: +, −, ×, ÷, %, and parentheses ()
+| 🧩 Feature | 💬 Description |
+|------------|----------------|
+| ➕ Basic Math Operations | Perform `+`, `−`, `×`, `÷`, `%`, and parentheses `()` |
+| 🧹 Clear & Backspace | Reset or remove the last character easily |
+| 🎨 Light/Dark Theme | Toggle between dark and light mode |
+| 🔊 Click Sound | Enable/disable key press sound |
+| ⌨️ Keyboard Support | Use your keyboard: `Enter`, `Esc`, `Backspace`, `%`, `()` |
+| 📱 Responsive Design | Works perfectly on mobile and desktop |
 
-⌫ Backspace & Clear button
+---
 
-🎨 Light/Dark theme toggle
-
-🔊 Optional click sound
-
-⌨️ Keyboard support (Enter, Backspace, Esc, etc.)
-
-📱 Fully responsive design (works on mobile & desktop)
+## 🧱 Project Structure  
