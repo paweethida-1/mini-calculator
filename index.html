@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Project: Calculator</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app" id="app">
+    <div class="topbar">
+      <div class="brand">Mini Project · Calculator</div>
+      <div class="toggles">
+        <div class="chip" id="themeToggle" title="Toggle theme">Light/Dark</div>
+        <div class="chip" id="soundToggle" title="Toggle key sound">🔈 Sound</div>
+      </div>
+    </div>
+
+    <section class="display" aria-live="polite" aria-atomic="true">
+      <div class="history" id="history"></div>
+      <div class="result" id="result">0</div>
+    </section>
+
+    <section class="keys" role="group" aria-label="Calculator keys">
+      <button class="key op" data-action="clear" aria-label="Clear (C)">C</button>
+      <button class="key op" data-action="back" aria-label="Backspace (Del)">⌫</button>
+      <button class="key op" data-action="percent" aria-label="Percent">%</button>
+      <button class="key op" data-value="/" aria-label="Divide">÷</button>
+
+      <button class="key" data-value="7">7</button>
+      <button class="key" data-value="8">8</button>
+      <button class="key" data-value="9">9</button>
+      <button class="key op" data-value="*" aria-label="Multiply">×</button>
+
+      <button class="key" data-value="4">4</button>
+      <button class="key" data-value="5">5</button>
+      <button class="key" data-value="6">6</button>
+      <button class="key op" data-value="-" aria-label="Minus">−</button>
+
+      <button class="key" data-value="1">1</button>
+      <button class="key" data-value="2">2</button>
+      <button class="key" data-value="3">3</button>
+      <button class="key op" data-value="+" aria-label="Plus">+</button>
+
+      <button class="key" data-action="sign" aria-label="Toggle sign">±</button>
+      <button class="key" data-value="0">0</button>
+      <button class="key" data-value="." aria-label="Decimal">.</button>
+      <button class="key eq" data-action="equal" aria-label="Equal">=</button>
+
+      <button class="key wide" data-value="(" aria-label="Open parenthesis">(</button>
+      <button class="key wide" data-value=")" aria-label="Close parenthesis">)</button>
+    </section>
+
+    <p class="footer">
+      Tip: ใช้คีย์บอร์ดได้: ตัวเลข, <span class="kbd">+</span> <span class="kbd">-</span> <span class="kbd">*</span> <span class="kbd">/</span>, วงเล็บ, <span class="kbd">.</span>,
+      <span class="kbd">Enter</span> (=), <span class="kbd">Backspace</span>, และ <span class="kbd">Esc</span> (เคลียร์)
+    </p>
+  </main>
+
+  <audio id="clickSound" preload="auto">
+    <source src="data:audio/mp3;base64,//uQZAAAAAAAAAAAAAAAAAAAAAAAWGluZwAAAA8AAAACAAACcQAAACAAACAgAAABAAACGgAAACAAACAgAAABAAACGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" type="audio/mpeg" />
+  </audio>
+
+  <script defer src="./app.js"></script>
+</body>
+</html>
