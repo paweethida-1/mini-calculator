@@ -22,4 +22,3 @@ This mini-project is part of my **Front-End Practice Series**, focusing on layou
 
 ---
 
-## 🧱 Project Structure  
