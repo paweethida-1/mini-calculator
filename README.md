@@ -21,4 +21,8 @@ This mini-project is part of my **Front-End Practice Series**, focusing on layou
 | 📱 Responsive Design | Works perfectly on mobile and desktop |
 
 ---
+<img src="./Screenshot 2568-10-05 at 23.14.30.png" width="420px" alt="Calculator Screenshot">
+
+
+
 
